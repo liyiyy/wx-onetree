@@ -1,0 +1,6 @@
+<!--pages/growup/growup.wxml-->
+<!-- <text>pages/growup/growup.wxml</text> -->
+<view class='container'>
+  <listcp style="width:100%" id="listcp" isShow="true" lists="{{lists}}" ></listcp>
+</view>
+ 

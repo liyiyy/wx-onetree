@@ -1,0 +1,19 @@
+<!--component/listcp.wxml-->
+<!-- <text>component/listcp.wxml</text> -->
+<view class='listcp-contanier'>
+  <view class='every-title'>
+    {{title}}
+  </view>
+  <view>
+    <view wx:for="{{lists}}" wx:key="{{item}}" class='single-item-container'>
+      <view class='img-box' bindtap='previewimg' data-src="{{item.src}}">
+        <image src='{{item.src}}'></image> 
+      </view>
+      <view class='txt-box'>
+      <view class='txt-title'>{{item.title}}title</view>
+      <view class='txt-des'>{{item.des}} dfdafaf fawe</view>
+      成长值:<progress></progress>
+      </view>
+    </view>
+  </view>
+</view>

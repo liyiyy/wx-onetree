@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "listcp": "/components/listcp/listcp"
+  }
+}

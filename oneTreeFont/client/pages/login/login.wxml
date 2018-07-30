@@ -1,0 +1,7 @@
+<!--pages/login/login.wxml-->
+<!-- <text>pages/login/login.wxml</text> -->
+
+<!-- 登录  -->
+<view class='container'>
+<button type="primary" open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">点击获取用户信息登录</button>
+</view>

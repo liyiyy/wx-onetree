@@ -1,0 +1,82 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+<view class='container'>
+  <!-- 消息滚动框，登录后显示  -->
+  <view></view>
+  <!-- 轮播图  -->
+  <swiper class='swiper_box' circular='true'>
+    <swiper-item wx:for='{{imgUrls}}' wx:key='{{item}}'>
+      <navigator url="{{item.url}}">
+        <image src='{{item.src}}' mode='aspectFit'></image>
+      </navigator>
+    </swiper-item>
+  </swiper>
+
+  <view class='dis-box'>
+    <view class='line-style'>
+      <view>
+        <navigator url="/pages/season/season?season='spring'&type='flower'">
+          <view class='block-style spring'>春</view>
+        </navigator>
+      </view>
+      <view>
+        <navigator url="/pages/season/season?season='summer'&type='flower'">
+          <view class='block-style summer'>夏</view>
+        </navigator>
+      </view>
+    </view>
+    <view class='title-txt'>花开四季</view>
+    <view class='line-style'>
+      <view>
+        <navigator url="/pages/season/season?season='autumn'&type='flower'">
+          <view class='block-style autumn'>秋</view>
+        </navigator>
+      </view>
+      <view>
+        <navigator url="/pages/season/season?season='winter'&type='flower'">
+          <view class='block-style winter'>冬</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+
+  <view class='dis-box'>
+    <view class='line-style'>
+      <view>
+        <navigator url="/pages/season/season?season='spring'&type='fruit'">
+          <view class='block-style spring'>春</view>
+        </navigator>
+      </view>
+      <view>
+        <navigator url="/pages/season/season?season='summer'&type='fruit'">
+          <view class='block-style summer'>夏</view>
+        </navigator>
+      </view>
+    </view>
+    <view class='title-txt'>果香四季</view>
+    <view class='line-style'>
+      <view>
+        <navigator url="/pages/season/season?season='autumn'&type='fruit'">
+          <view class='block-style autumn'>秋</view>
+        </navigator>
+      </view>
+      <view>
+        <navigator url="/pages/season/season?season='winter'&type='fruit'">
+          <view class='block-style winter'>冬</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+
+</view>

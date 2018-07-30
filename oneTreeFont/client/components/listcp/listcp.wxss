@@ -1,0 +1,29 @@
+/* component/listcp.wxss */
+.listcp-contanier{
+  width: 100%;
+}
+.single-item-container{
+width: 100%;
+height: 100rpx;
+display: flex;
+}
+.img-box{
+  width: 200rpx;
+  height: 200rpx;
+}
+.img-box>image{
+  width: 200rpx;
+  height: 200rpx;
+  float: left;
+}
+.txt-box{
+  flex: 1;
+  padding-left: 30rpx
+}
+.txt-title{
+  font-size: 36rpx;
+}
+
+.txt-des{
+  font-size: 28rpx;
+}

@@ -1,0 +1,5 @@
+<!--pages/season/season.wxml-->
+<!-- <text>pages/season/season.wxml</text> -->
+<view class='container'>
+  <listcp id="listcp" isShow="true" lists="{{lists}}"></listcp>
+</view>

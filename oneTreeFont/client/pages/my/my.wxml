@@ -1,0 +1,8 @@
+<!--pages/my/my.wxml-->
+<!-- <text>pages/my/my.wxml</text> -->
+<view>
+<view>
+账户。。
+</view>
+<listcp style="width:100%" id="listcp" isShow="true" lists="{{lists}}"></listcp>
+</view>
