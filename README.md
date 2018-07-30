@@ -2,9 +2,9 @@
 ### 现状:
 微信小程序+vue+koa2+mongoose 搭建的前后台demo，尚不完善，只有小部分接口实现，先留存下
 
-前台:微信小程序
+前台:微信小程序 代码在oneTreeFont文件夹下
 
-后台：vue + koa2 + mongoose
+后台：vue + koa2 + mongoose 代码在oneTreeAdmin下
 
 项目本地运行：
 环境：安装好mongodb ,node > v7.6
